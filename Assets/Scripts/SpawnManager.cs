@@ -17,12 +17,21 @@ public class SpawnManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Instantiate(enemyPrefab, RandomSpawnPosition(), Quaternion.identity);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void SpawnEnemyWave (int enemiesToSpawn)
+    {
+        //DeviceOrientation(int i =; int <enemiesToSpawn; int++){
+            //Ínstantiate(enemyPrefab, RandomSpawnPosition(), Quaternion.identity);
+        //}
+            
+
     }
 }

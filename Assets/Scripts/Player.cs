@@ -11,6 +11,8 @@ public class Player : MonoBehaviour
     private GameObject focalPoint;
     public bool hasPowerup;
     private float powerupForce = 15f;
+
+    public GameObject[] powerupsIndicators;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Powerup"))
@@ -37,5 +39,6 @@ public class Player : MonoBehaviour
         
     }
 
+    
   
 }
